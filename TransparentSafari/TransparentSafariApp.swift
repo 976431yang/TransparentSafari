@@ -141,10 +141,10 @@ struct TransparentSafariApp: App {
                     setAplha(1.0)
                 }
                 Button("增加(command+↑)") {
-                    setScale(viewModel.opacity+0.1)
+                    setAplha(viewModel.opacity+0.1)
                 }
                 Button("减少(command+↓)") {
-                    setScale(viewModel.opacity-0.1)
+                    setAplha(viewModel.opacity-0.1)
                 }
             }
         }
