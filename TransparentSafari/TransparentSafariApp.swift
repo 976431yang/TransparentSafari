@@ -11,7 +11,7 @@ import SwiftUI
 class ViewModel: ObservableObject {
     
     @Published var opacity: Double = 0.8
-    @Published var scale: Double = 0.75
+    @Published var scale: Double = 1
     @Published var urlString: String = "https://www.bilibili.com"
     @Published var url: URL = URL(string: "https://www.bilibili.com")!
     @Published var lastUrl: URL?
